@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="MU_+6c`C/#!v+~{8|0@R" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="O!1,knmN2^@jzi+mRNgx"><value name="ID"><shadow type="math_number_minmax" id="exYk:X#d6L`D]Dzl.NG{"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">69</field></shadow></value></block></statement></block><block type="controller_onEvent" id="E*wY=xE!U,^|Het=X^ga" x="367" y="78"><field name="button">GamerBitPin.P13</field><field name="event">GamerBitEvent.Down</field><statement name="HANDLER"><block type="basic_show_icon" id="(.g#h!,]v#F85q(G2cb)"><field name="i">IconNames.No</field><next><block type="radio_datagram_send" id="fc]uC#p.#8xnVia+GX{J"><value name="value"><shadow type="math_number" id="mg}i8/wE8w}rtmn-yx`k"><field name="NUM">2</field></shadow></value></block></next></block></statement></block><block type="controller_onEvent" id="XRa@004~;a/V*:5D[z%r" x="36" y="163"><field name="button">GamerBitPin.P15</field><field name="event">GamerBitEvent.Down</field><statement name="HANDLER"><block type="basic_show_icon" id="Rsa9nr(%-Xrg-R52voo("><field name="i">IconNames.Yes</field><next><block type="radio_datagram_send" id="vM4opKe+v!fASaS`fx^q"><value name="value"><shadow type="math_number" id="KUO4@lG98rRQXz$HoXSo"><field name="NUM">1</field></shadow></value></block></next></block></statement></block><block type="controller_onJoystickEvent" id="r7$ql1IZQ;dZLTUF+_Jw" x="501" y="225"><field name="event">JoystickEvent.South</field><statement name="HANDLER"><block type="device_show_leds" id="0UU9a!C|2pGV$iGq}J%X"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="radio_datagram_send" id="wU1Gmqrwn`7J?8qSxB+b"><value name="value"><shadow type="math_number" id="zvxsf=@2Mck,tlpX!o|F"><field name="NUM">4</field></shadow></value></block></next></block></statement></block><block type="controller_onJoystickEvent" id="$FXa%irWz@$*lU+m`x,J" x="92" y="327"><field name="event">JoystickEvent.North</field><statement name="HANDLER"><block type="device_show_leds" id="JXe[[d`|n25zz_E:Cvx;"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="radio_datagram_send" id="=LH42(,p~*uyOif}WXRL"><value name="value"><shadow type="math_number" id="=Ao:R`UiM2=o!@[5%:9`"><field name="NUM">3</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="0xR~!4zqIy*DaZ+b:cp%" x="299" y="348"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="A[d*bh6yXLC?oP0iCTl+"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="radio_datagram_send" id="n{:9r2vB~##!T3LyQE$I"><value name="value"><shadow type="math_number" id="Uq~5L~qPlgNlgfqJXG|;"><field name="NUM">6</field></shadow></value></block></next></block></statement></block><block type="controller_onJoystickEvent" id="O++eiiX#AtF_sipVrj}x" x="40" y="692"><field name="event">JoystickEvent.Centre</field><statement name="HANDLER"><block type="device_show_leds" id="{A/@Kpe.;^:ZMuuaxG%/"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="radio_datagram_send" id="[.v6%Zz|Cnri*W.PhEFU"><value name="value"><shadow type="math_number" id=",oYoJGbk7.SaEKUJ/p72"><field name="NUM">0</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="@4V5{p@`-]eS-gjGj=aG" x="329" y="738"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="e/Suj_w/(3X;8FtuiHOs"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="radio_datagram_send" id="}=H0=dnb]iI!SOm10O;M"><value name="value"><shadow type="math_number" id="G@i`Q]q|Uqg:S{rA5ugI"><field name="NUM">5</field></shadow></value></block></next></block></statement></block></xml>
